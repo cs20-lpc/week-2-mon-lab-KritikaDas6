@@ -1,0 +1,180 @@
+Testing 1:                                                    
+Student object created!
+Student object created!
+Student object created!
+Student object created!
+Student object created!
+Enter the name for student #1: Kritika
+Enter the age for student #1: 18
+Enter the name for student #2: Hora
+Enter the age for student #2: 19
+Enter the name for student #3: Nix
+Enter the age for student #3: 57
+Enter the name for student #4: Adira
+Enter the age for student #4: 43
+Enter the name for student #5: Lola
+Enter the age for student #5: 39
+Student #1
+        Name: Kritika
+        Age: 18
+
+Student #2
+        Name: Hora
+        Age: 19
+
+Student #3
+        Name: Nix
+        Age: 50
+
+Student #4
+        Name: Adira
+        Age: 43
+
+Student #5
+        Name: Lola
+        Age: 39
+
+
+Testing #2:
+
+Student object created!
+Student object created!
+Student object created!
+Student object created!
+Student object created!
+
+Enter the name for student #1: 
+Name is empty, please retype name.
+Enter the name for student #1: kritika
+Enter the age for student #1: 4
+
+Enter the name for student #2: 4
+Enter the age for student #2: 3
+4
+Enter the name for student #3: a
+Enter the age for student #3: 2
+
+Enter the name for student #4: 4
+Enter the age for student #4: b
+⚠️  Invalid age. Please enter your age as a positive number.
+Enter the age for student #4: 4
+
+Enter the name for student #5: g
+Enter the age for student #5: 4
+Student #1
+        Name: kritika
+        Age: 18
+
+Student #2
+        Name: 4
+        Age: 18
+
+Student #3
+        Name: a
+        Age: 18
+
+Student #4
+        Name: 4
+        Age: 18
+
+Student #5
+        Name: g
+        Age: 18
+
+Student object destroyed!
+Student object destroyed!
+Student object destroyed!
+Student object destroyed!
+Student object destroyed!
+kritika@Kajals-MBP-2 week-2-mon-lab-KritikaDas6 % g++ -std=c++17 -Wall -Werror lab01-part-b.cpp Student.cpp -o main
+
+
+TESTING 2:                                                          
+Student object created!
+Student object created!
+Student object created!
+Student object created!
+Student object created!
+Enter the name for student #1: Hikari
+Enter the age for student #1: 48
+Enter the name for student #2: Lola
+Enter the age for student #2: 19
+Enter the name for student #3: 
+Name is empty, please retype name.
+Enter the name for student #3: Ada
+Enter the age for student #3: 78
+Enter the name for student #4: Kalyan
+Enter the age for student #4: -1
+Invalid age. Please enter your age as a positive number.
+Enter the age for student #4: 8
+Enter the name for student #5: jo
+Enter the age for student #5: ab
+Invalid age. Please enter your age as a positive number.
+Enter the age for student #5: 52 
+Student #1
+        Name: Hikari
+        Age: 48
+
+Student #2
+        Name: Lola
+        Age: 19
+
+Student #3
+        Name: Ada
+        Age: 50
+
+Student #4
+        Name: Kalyan
+        Age: 18
+
+Student #5
+        Name: jo
+        Age: 50
+
+Student object destroyed!
+Student object destroyed!
+Student object destroyed!
+Student object destroyed!
+Student object destroyed!
+
+
+TESTING 3: Student object created!
+Student object created!
+Student object created!
+Student object created!
+Student object created!
+Enter the name for student #1: Taylor Swift
+Enter the age for student #1: 36
+Enter the name for student #2: Travis Kelce
+Enter the age for student #2: 78
+Enter the name for student #3: Elon Mush
+Enter the age for student #3: 13
+Enter the name for student #4: x0extenssion raps
+Enter the age for student #4: 99
+Enter the name for student #5: kid laroi 
+Enter the age for student #5: 47
+Student #1
+        Name: Taylor Swift
+        Age: 36
+
+Student #2
+        Name: Travis Kelce
+        Age: 50
+
+Student #3
+        Name: Elon Mush
+        Age: 18
+
+Student #4
+        Name: x0extenssion raps
+        Age: 50
+
+Student #5
+        Name: kid laroi 
+        Age: 47
+
+Student object destroyed!
+Student object destroyed!
+Student object destroyed!
+Student object destroyed!
+Student object destroyed!
