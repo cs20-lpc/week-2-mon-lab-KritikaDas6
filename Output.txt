@@ -35,60 +35,6 @@ Student #5
         Age: 39
 
 
-Testing #2:
-
-Student object created!
-Student object created!
-Student object created!
-Student object created!
-Student object created!
-
-Enter the name for student #1: 
-Name is empty, please retype name.
-Enter the name for student #1: kritika
-Enter the age for student #1: 4
-
-Enter the name for student #2: 4
-Enter the age for student #2: 3
-4
-Enter the name for student #3: a
-Enter the age for student #3: 2
-
-Enter the name for student #4: 4
-Enter the age for student #4: b
-Invalid age. Please enter your age as a positive number.
-Enter the age for student #4: 4
-
-Enter the name for student #5: g
-Enter the age for student #5: 4
-Student #1
-        Name: kritika
-        Age: 18
-
-Student #2
-        Name: 4
-        Age: 18
-
-Student #3
-        Name: a
-        Age: 18
-
-Student #4
-        Name: 4
-        Age: 18
-
-Student #5
-        Name: g
-        Age: 18
-
-Student object destroyed!
-Student object destroyed!
-Student object destroyed!
-Student object destroyed!
-Student object destroyed!
-kritika@Kajals-MBP-2 week-2-mon-lab-KritikaDas6 % g++ -std=c++17 -Wall -Werror lab01-part-b.cpp Student.cpp -o main
-
-
 TESTING 2:                                                          
 Student object created!
 Student object created!
