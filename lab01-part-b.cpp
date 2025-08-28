@@ -1,10 +1,9 @@
-#include "Student.hpp"
+
 #include <iostream>
 #include <string>
 using namespace std;
 
-
-
+#include "Student.hpp"
 /*******************************************************************************
  * Function prototypes
 *******************************************************************************/
@@ -58,7 +57,7 @@ int main() {
  * N/A
 *******************************************************************************/
 
-void getInput(Student objArray[], const int SIZE) {
+void getInput(Student objArray[], const int SIZE) { 
     // temporary variables
     int    t = 0;
     string s = "";
@@ -66,12 +65,28 @@ void getInput(Student objArray[], const int SIZE) {
     // for each student
     for (int i = 0; i < SIZE; i++) {
         // prompt and store the name of the current student
-        cout << "Enter the name for student #" << i + 1 << ": ";
-        getline(cin, s);
+        do {
+            cout << "Enter the name for student #" << i + 1 << ": ";
+            getline(cin, s);
+            if (s.empty()) { //chcks wheter user input is left blank
+                cout << "Name is empty, please retype name."<<endl;
+            }
+        } while (s.empty());
 
         // prompt and store for the age of the current student
-        cout << "Enter the age for student #" << i + 1 << ": ";
-        cin >> t;
+        bool valid = false;
+        while (!valid) { 
+            cout << "Enter the age for student #" << i + 1 << ": ";
+            cin >> t;
+
+            if (cin.fail() || t <= 0) { //checks whether age is positive or an invalid input is added
+                cout << "⚠️  Invalid age. Please enter your age as a positive number.\n";
+                cin.clear();
+                cin.ignore(1000, '\n');
+            } else {
+                valid = true;
+            }
+        }
 
         // need to ignore the newline for the next iteration
         cin.ignore();
@@ -139,3 +154,8 @@ void display(const Student objArray[], const int SIZE) {
         i++;
     }
 }
+
+
+
+
+
